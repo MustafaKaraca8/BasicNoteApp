@@ -5,6 +5,7 @@ In this application, you can easily take notes, update them and delete your note
 ## Usage
 
 The application is very simple to use, first let's talk about adding a note.
+
 ![noteee2](https://github.com/MustafaKaraca8/BasicNoteApp/assets/101111089/12319bb4-9add-4d45-b215-f1c2019e9702)
 
 
