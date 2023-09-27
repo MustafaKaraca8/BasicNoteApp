@@ -2,9 +2,9 @@
 
 In this application, you can easily take notes, update them and delete your notes by simply swiping right.
 
-## Technologies
+# Technologies
 
-### Android Jetpack
+### Android Jetpack 
 
 Android Jetpack provides various utility libraries and tools for Android app developers. Many components of Jetpack have been used in this project
 
@@ -52,7 +52,7 @@ View Binding provides direct and safe access to UI components in XML layout file
 
 Material Design, a modern approach to Android application design, has been utilized in this project. User interface components have been designed in accordance with Material Design guidelines.
 
-## Usage
+# Usage
 
 The application is very simple to use, first let's talk about adding a note.
 
