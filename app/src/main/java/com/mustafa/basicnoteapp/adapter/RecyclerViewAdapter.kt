@@ -31,12 +31,10 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.NoteHolder>
     override fun onBindViewHolder(holder: NoteHolder, position: Int) {
         val title = holder.itemView.findViewById<TextView>(R.id.titleTextView)
         val mNote = holder.itemView.findViewById<TextView>(R.id.noteTextView)
-        val date = holder.itemView.findViewById<TextView>(R.id.dateTextView)
         val notes = noteList[position]
         holder.itemView.apply {
             title.text = notes.title
             mNote.text = notes.note
-            date.text = position.toString()
         }
 
         holder.itemView.setOnClickListener  {

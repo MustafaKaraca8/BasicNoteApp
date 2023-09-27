@@ -21,7 +21,6 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note) {
     private var fragmentBinding : FragmentAddNoteBinding ?= null
     lateinit var viewModel : AddNoteViewModel
     private var noteUuid : Int ?= null
-    private var noteCreationDate: Long? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -37,8 +36,6 @@ class AddNoteFragment : Fragment(R.layout.fragment_add_note) {
 
         observeNote()
         binding.addNote.setOnClickListener {
-            val currentDate = System.currentTimeMillis() // Geçerli tarihi milisaniye cinsinden alın
-            noteCreationDate = currentDate
             if(noteUuid == -1){
                 viewModel.makeNote(binding.titleEditText.text.toString() , binding.noteEditText.text.toString())
             }
