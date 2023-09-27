@@ -14,4 +14,5 @@ The view we will see on the screen we go to will be where we write a title, take
 
 That's it, now you've added a note and you can update it at any time by pressing the added note or delete it by swiping right.
 
-![noteee](https://github.com/MustafaKaraca8/BasicNoteApp/assets/101111089/523d19a0-4ad9-45ed-96fa-2ea3d4071b7b)
+![noteee](https://github.com/MustafaKaraca8/BasicNoteApp/assets/101111089/e599798f-3d19-4b63-aa97-8d6ac5f998ae)
+
